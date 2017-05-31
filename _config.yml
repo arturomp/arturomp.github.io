@@ -17,7 +17,7 @@ collections:
   photoprojects:
     output: True
 
-highlighter: pygments
+highlighter: rouge
 # markdown: redcarpet
 markdown: kramdown
 redcarpet:
