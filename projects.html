@@ -1,0 +1,76 @@
+---
+title: All projects
+---
+
+  <br/>
+  <br/>
+  <div class="project-container">
+    <h1>Machine Learning (and life) Projects</h1>
+  </div>
+
+
+  <div id="article">
+
+    <br/>
+    <ul class="posts">
+
+      {% assign projs = (site.projects | sort: 'order') %}
+
+      {% for project in projs %}
+    
+        <li>
+            <span>
+                <a href="{{ project.exturl }}" target="_blank">
+                    <div class="project-box">
+                      <div class="row">
+                        <div class="col-md-3 project-image">
+                          <img src="{{ site.baseurl }}{{ project.image }}">
+                        </div>
+                        <div class="col-md-9 project-post">
+                          <h1>{{ project.title }}</h1>
+                          <h3>{{ project.subtitle }}</h3>
+                        </div>
+                      </div>
+                      <hr/>
+                    </div>
+                </a>  
+            </span>
+        </li>
+
+      {% endfor %}
+
+    </ul>
+  </div>
+
+  <div id="article">
+
+    <br/>
+    <ul class="posts">
+
+      {% assign photoprojs = (site.photoprojects | sort: 'order') %}
+
+      {% for photoproject in photoprojs %}
+    
+        <li>
+            <span>
+                <a href="{{ site.baseurl }}{{ photoproject.url }}">
+                    <div class="project-box">
+                      <div class="row">
+                        <div class="col-md-3 project-image">
+                          <img src="{{ site.url }}{{ photoproject.image }}">
+                        </div>
+                        <div class="col-md-9 project-post">
+                          <h1>{{ photoproject.title }}</h1>
+                        </div>
+                      </div>
+                      <hr/>
+                    </div>
+                </a>  
+            </span>
+        </li>
+
+      {% endfor %}
+
+    </ul>
+  </div>
+

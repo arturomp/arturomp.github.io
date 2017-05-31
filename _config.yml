@@ -1,1 +1,46 @@
-theme: jekyll-theme-cayman
+name: Arturo MP
+author: Arturo MP
+baseurl: ""
+description: ML, NLP
+github: http://www.github.com/arturomp
+linkedin: http://www.linkedin.com/in/arturomp
+stackoverflow: https://stackoverflow.com/users/583834/arturomp?tab=profile
+email: contact.arturo[at]gmail.com
+
+collections:
+- projects
+- photoprojects
+
+collections:
+  projects:
+    output: True
+  photoprojects:
+    output: True
+
+highlighter: pygments
+# markdown: redcarpet
+markdown: kramdown
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "photoprojects"
+    values:
+      layout: "photos"
