@@ -1,6 +1,6 @@
 ---
 title:  "Automatic keyword extraction"
-subtitle:  "TFIDF across fields"
+subtitle:  "TFIDF across subjects"
 categories: ml nlp kaggle
 image: /images/stack-exchange-keyword-extraction.png
 order: 1
