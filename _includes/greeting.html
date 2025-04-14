@@ -1,37 +1,73 @@
-  </div>
-  <div class="container">
-    <div id="welcome-greeting">
-      
-      <h1>Hi! I'm Arturo.</h1>
-      
-      <h2>
+<!-- Adding CSS for highlighted elements -->
+<style>
+  .highlight {
+    background-color: #fff3cd;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    border-bottom: 2px solid #ffc107;
+  }
+  
+  .project-link {
+    background-color: #e8f4f8;
+    padding: 2px 5px;
+    border-radius: 3px;
+    text-decoration: underline;
+    color: #0066cc;
+    transition: background-color 0.3s;
+  }
+  
+  .project-link:hover {
+    background-color: #d1e7f0;
+  }
+  
+  .section-divider {
+    margin: 20px 0;
+    border-bottom: 1px dashed #ddd;
+  }
+  
+  .key-interest {
+    color: #28a745;
+    font-weight: bold;
+  }
+</style>
 
-      I do NLP, working with language and technology. 
-      
-      My main interests are the applications of NLP to further positive, pro-social use cases.
+<div class="container">
+<div id="welcome-greeting">
 
-      <br>
-      <br> 
+<h1>Hi! I'm <span class="highlight">Arturo</span>.</h1>
 
-      For grad school I've focused on <a href="https://arxiv.org/abs/2407.02637" target="_blank">reframing in natural contexts</a>, creating a new text-style-transfer dataset related to persuasion. I also fine-tune LLMs motivated by applications across a variety of fields such as mental health, law, marketing, humor and business, among others.
+<h2>
 
-      <br>
-      <br> 
+I do <span class="highlight">NLP</span>, working with language and technology. 
 
-      I've also done many other ML and NLP projects having worked in academia, startups and industry. If you're new to Machine Learning, take a look at <a href="https://github.com/arturomp/coursera-machine-learning-in-python#readme" target="_blank">these notebooks</a> where I walk through implementing foundational ML algorithms from scratch.
-      
-      <br>
-      <br> 
-      
-      You can also take a look at my convolutional neural net for <a href="https://github.com/arturomp/kaggle/blob/master/digit-recognition/cnn-digit-recognition.ipynb" target="_blank">optical character recognition</a>, my Doc2Vec + XGBoost attempt at <a href="https://github.com/arturomp/kaggle/blob/master/quora-question-similarity/quora-question-similarity.ipynb" target="_blank">paraphrase detection of millions of questions</a>, and my approach to taking knowledge from known fields to automatically <a href="https://github.com/arturomp/kaggle/blob/master/stack-exchange-keyword-extraction/Stack-Exchange-keyword-extraction.ipynb" target="_blank">extract keywords from text</a> in a new field. You can also peek at my publications on <a href="https://drive.google.com/file/d/1sYnDvE5ATFYksxxYUB2kDl0MjZzDBYzt/view?usp=sharing" target="_blank">reframing in the wild</a> and on <a href="https://www.ncbi.nlm.nih.gov/pubmed/23920798" target="_blank">on text classification in a medical setting</a>.
+My main interests are the applications of NLP to further <span class="key-interest">positive, pro-social use cases</span>.
 
-      <br>
-      <br> 
+<br>
+<br> 
 
-      I also <a href="{{ site.baseurl }}/photoprojects/cooking.html">cook</a>, travel and <a href="{{ site.baseurl }}/photoprojects/travel.html">take pictures</a>, among <a href="{{ site.baseurl }}/about.html">many other things</a>.
+For grad school I've focused on <a href="https://arxiv.org/abs/2407.02637" target="_blank" class="project-link">reframing in natural contexts</a>, creating a new <span class="highlight">text-style-transfer dataset</span> related to persuasion. I also <span class="highlight">fine-tune LLMs</span> motivated by applications across a variety of fields such as <span class="key-interest">mental health, law, marketing, humor and business</span>, among others.
 
-      </h2>
+<br>
+<br> 
 
-    </div>
-  </div>
-  <div class ="container">
+<div class="section-divider"></div>
+
+I've also done many other ML and NLP projects having worked in <span class="highlight">academia, startups and industry</span>. If you're new to Machine Learning, take a look at <a href="https://github.com/arturomp/coursera-machine-learning-in-python#readme" target="_blank" class="project-link">these notebooks</a> where I walk through implementing foundational ML algorithms from scratch.
+
+<br>
+<br> 
+
+You can also take a look at my convolutional neural net for <a href="https://github.com/arturomp/kaggle/blob/master/digit-recognition/cnn-digit-recognition.ipynb" target="_blank" class="project-link">optical character recognition</a>, my Doc2Vec + XGBoost attempt at <a href="https://github.com/arturomp/kaggle/blob/master/quora-question-similarity/quora-question-similarity.ipynb" target="_blank" class="project-link">paraphrase detection of millions of questions</a>, and my approach to taking knowledge from known fields to automatically <a href="https://github.com/arturomp/kaggle/blob/master/stack-exchange-keyword-extraction/Stack-Exchange-keyword-extraction.ipynb" target="_blank" class="project-link">extract keywords from text</a> in a new field. You can also peek at my publications on <a href="https://drive.google.com/file/d/1sYnDvE5ATFYksxxYUB2kDl0MjZzDBYzt/view?usp=sharing" target="_blank" class="project-link">reframing in the wild</a> and on <a href="https://www.ncbi.nlm.nih.gov/pubmed/23920798" target="_blank" class="project-link">on text classification in a medical setting</a>.
+
+<br>
+<br> 
+
+<div class="section-divider"></div>
+
+I also <a href="{{ site.baseurl }}/photoprojects/cooking.html" class="project-link">cook</a>, travel and <a href="{{ site.baseurl }}/photoprojects/travel.html" class="project-link">take pictures</a>, among <a href="{{ site.baseurl }}/about.html" class="project-link">many other things</a>.
+
+</h2>
+
+</div>
+</div>
