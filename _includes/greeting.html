@@ -1,70 +1,109 @@
-<!-- Adding CSS for highlighted elements -->
 <style>
-  .highlight {
-    background-color: rgba(247, 247, 247, 0.7);
-    padding: 2px 4px;
-    border-radius: 2px;
-    font-weight: 600;
-    border-bottom: 1px solid #e0e0e0;
+  .intro-heading {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
   }
-  
-  .project-link {
+
+  .subheading {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  .blurb {
+    font-size: 1.1em;
+    margin-bottom: 2em;
+    color: #333;
+  }
+
+  .highlight-section {
+    margin-bottom: 2em;
+  }
+
+  .highlight-section h3 {
+    font-size: 1.4em;
+    color: #444;
+    margin-bottom: 0.5em;
+  }
+
+  .highlight-section ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+  }
+
+  .highlight-section li {
+    margin-bottom: 0.8em;
+    line-height: 1.5em;
+  }
+
+  .highlight-section a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .highlight-section a:hover {
     text-decoration: underline;
-    color: #2c5282;
-    transition: color 0.2s;
-  }
-  
-  .project-link:hover {
-    color: #4299e1;
-  }
-  
-  .section-divider {
-    margin: 20px 0;
-    border-bottom: 1px solid #f0f0f0;
-  }
-  
-  .key-interest {
-    color: #4a5568;
-    font-weight: 600;
   }
 </style>
 
 <div class="container">
-<div id="welcome-greeting">
+  <div id="welcome-greeting">
+    <h1 class="intro-heading">👋 Hi! I'm Arturo.</h1>
 
-<h1>Hi! I'm <span class="highlight">Arturo</span>.</h1>
+    <h2 class="subheading">💬 I do NLP — working with language and technology.</h2>
+    <p class="blurb">
+      My main interests are the applications of NLP to support positive, pro-social use cases.
+    </p>
 
-<h2>
+    <section class="highlight-section">
+      <h3>🎓 Graduate Research</h3>
+      <ul>
+        <li>
+          <strong><a href="https://arxiv.org/abs/2407.02637" target="_blank">Reframing in natural contexts</a></strong> —
+          building a new style-transfer dataset focused on persuasion.
+        </li>
+        <li>
+          I fine-tune LLMs for applications in <em>mental health</em>, <em>law</em>, <em>marketing</em>, <em>humor</em>, <em>business</em>, and more.
+        </li>
+      </ul>
+    </section>
 
-I do <span class="highlight">NLP</span>, working with language and technology. 
+    <section class="highlight-section">
+      <h3>🧠 ML & NLP Projects</h3>
+      <ul>
+        <li>
+          For beginners: <a href="https://github.com/arturomp/coursera-machine-learning-in-python#readme" target="_blank">Machine Learning in Python (from scratch)</a>
+        </li>
+        <li>
+          <a href="https://github.com/arturomp/kaggle/blob/master/digit-recognition/cnn-digit-recognition.ipynb" target="_blank">CNN for Optical Character Recognition</a>
+        </li>
+        <li>
+          <a href="https://github.com/arturomp/kaggle/blob/master/quora-question-similarity/quora-question-similarity.ipynb" target="_blank">Paraphrase detection of millions of Quora questions (Doc2Vec + XGBoost)</a>
+        </li>
+        <li>
+          <a href="https://github.com/arturomp/kaggle/blob/master/stack-exchange-keyword-extraction/Stack-Exchange-keyword-extraction.ipynb" target="_blank">Keyword extraction from text in new fields (Stack Exchange)</a>
+        </li>
+      </ul>
+    </section>
 
-My main interests are the applications of NLP to further <span class="key-interest">positive, pro-social use cases</span>.
+    <section class="highlight-section">
+      <h3>📄 Publications</h3>
+      <ul>
+        <li>
+          <a href="https://drive.google.com/file/d/1sYnDvE5ATFYksxxYUB2kDl0MjZzDBYzt/view?usp=sharing" target="_blank">Reframing in the Wild</a>
+        </li>
+        <li>
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/23920798" target="_blank">Text Classification in a Medical Setting</a>
+        </li>
+      </ul>
+    </section>
 
-<br>
-<br> 
-
-For grad school I've focused on <a href="https://arxiv.org/abs/2407.02637" target="_blank" class="project-link">reframing in natural contexts</a>, creating a new <span class="highlight">text-style-transfer dataset</span> related to persuasion. I also <span class="highlight">fine-tune LLMs</span> motivated by applications across a variety of fields such as <span class="key-interest">mental health, law, marketing, humor and business</span>, among others.
-
-<br>
-<br> 
-
-<div class="section-divider"></div>
-
-I've also done many other ML and NLP projects having worked in <span class="highlight">academia, startups and industry</span>. If you're new to Machine Learning, take a look at <a href="https://github.com/arturomp/coursera-machine-learning-in-python#readme" target="_blank" class="project-link">these notebooks</a> where I walk through implementing foundational ML algorithms from scratch.
-
-<br>
-<br> 
-
-You can also take a look at my convolutional neural net for <a href="https://github.com/arturomp/kaggle/blob/master/digit-recognition/cnn-digit-recognition.ipynb" target="_blank" class="project-link">optical character recognition</a>, my Doc2Vec + XGBoost attempt at <a href="https://github.com/arturomp/kaggle/blob/master/quora-question-similarity/quora-question-similarity.ipynb" target="_blank" class="project-link">paraphrase detection of millions of questions</a>, and my approach to taking knowledge from known fields to automatically <a href="https://github.com/arturomp/kaggle/blob/master/stack-exchange-keyword-extraction/Stack-Exchange-keyword-extraction.ipynb" target="_blank" class="project-link">extract keywords from text</a> in a new field. You can also peek at my publications on <a href="https://drive.google.com/file/d/1sYnDvE5ATFYksxxYUB2kDl0MjZzDBYzt/view?usp=sharing" target="_blank" class="project-link">reframing in the wild</a> and on <a href="https://www.ncbi.nlm.nih.gov/pubmed/23920798" target="_blank" class="project-link">on text classification in a medical setting</a>.
-
-<br>
-<br> 
-
-<div class="section-divider"></div>
-
-I also <a href="{{ site.baseurl }}/photoprojects/cooking.html" class="project-link">cook</a>, travel and <a href="{{ site.baseurl }}/photoprojects/travel.html" class="project-link">take pictures</a>, among <a href="{{ site.baseurl }}/about.html" class="project-link">many other things</a>.
-
-</h2>
-
-</div>
+    <section class="highlight-section">
+      <h3>🌱 Outside of Work</h3>
+      <p>
+        I also <a href="{{ site.baseurl }}/photoprojects/cooking.html">cook</a>, 
+        travel, and <a href="{{ site.baseurl }}/photoprojects/travel.html">take pictures</a>, 
+        among <a href="{{ site.baseurl }}/about.html">many other things</a>.
+      </p>
+    </section>
+  </div>
 </div>
