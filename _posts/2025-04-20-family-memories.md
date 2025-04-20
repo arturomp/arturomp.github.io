@@ -1,8 +1,9 @@
 ---
+layout: page
 title: "Family Memories: Searchable Interviews with GenAI"
 subtitle: "A bilingual pipeline for recalling stories, building questions, and exploring shared history"
 categories: nlp llm
-order: 1
+permalink: /projects/family-memories.html
 ---
 
 # 🫶 Family Memories: A Bilingual AI System to Explore and Revisit Interviews  
