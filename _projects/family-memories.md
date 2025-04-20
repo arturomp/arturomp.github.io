@@ -1,6 +1,6 @@
 ---
-title: "Family Memories: Searchable Interviews with GenAI"
-subtitle: "A bilingual pipeline for recalling stories, building questions, and exploring shared history"
+title: "Family memories with RAG"
+subtitle: "Retrieval over real and synthetic family conversations"
 categories: nlp llm kaggle
 image: /images/family-memories.png
 order: 1
