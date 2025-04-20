@@ -1,5 +1,5 @@
 ---
-title: "Family memories with RAG"
+title: "Family Memories with RAG"
 subtitle: "Retrieval over real and synthetic family conversations"
 categories: nlp llm kaggle
 image: /images/family-memories.png

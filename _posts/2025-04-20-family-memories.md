@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Family Memories: Searchable Interviews with RAG"
+title: "Family Memories: Interview Exploration with RAG"
 subtitle: "A bilingual pipeline for recalling stories, building questions, and exploring shared history"
 categories: nlp llm
 permalink: /projects/family-memories-rag.html
@@ -90,7 +90,7 @@ Model choice can make a big difference:
 
 The result is a clean transcript with speaker turns, suitable for semantic chunking and search.
 
-One of my favorite aspects of this feature is that since modern speech reco systems like Gemini can work with dozens of languages, your interviews can be in [~40](https://ai.google.dev/gemini-api/docs/models#supported-languages) languages supported by Gemini.
+One of my favorite aspects of this feature is that since modern speech reco systems like Gemini can work with dozens of languages, your interviews can be in [~40](https://ai.google.dev/gemini-api/docs/models#supported-languages) languages currently supported. (Since more languages are always being rolled out, if your family's language isn't supported yet, please don't let that prevent you from interviewing them today!)
 
 Today, different generations of the same family often have different primary languages due to migration, education and many other factors. Powerful, multilingual transcription allows each member to tell their own stories in the language in which they are most comfortable. Our system then allows any other family member, who may or may not share their primary language, to understand more fully those stories. This should have the effect of fostering closer, more authentic connections.
 
@@ -367,7 +367,7 @@ La elección de modelo puede hacer una gran diferencia:
 
 El resultado es una transcripción con turnos de habla, lista para ser fragmentada y para aplicarle búsqueda semántica.
 
-Uno de mis aspectos favoritos de esta función es que, dado que los sistemas modernos de reconocimiento de voz como Gemini pueden trabajar con docenas de idiomas, sus entrevistas pueden ser en [~40](https://ai.google.dev/gemini-api/docs/models#supported-languages) idiomas admitidos por Gemini.
+Uno de mis aspectos favoritos de esta función es que, dado que los sistemas modernos de reconocimiento de voz como Gemini pueden trabajar con docenas de idiomas, tus entrevistas pueden ser en [~40](https://ai.google.dev/gemini-api/docs/models#supported-languages) idiomas. (Dado que cada vez hay más idiomas disponibles, si el idioma de tu familia aún no está disponible, ¡no dejes que eso te impida entrevistarlos hoy mismo!)
 
 Hoy en día, distintas generaciones de una misma familia pueden tener diferente lenguas primarias gracias a factores como migración, educación y otros. El poder de la transcripción multilingüe permite a cada miembro contar sus propias historias en la lengua en la que se sientan más cómodos. Nuestro sistema permite entonces que cualquier otro miembro de la familia, sin importar que comparta o no su lengua primaria, comprenda mejor esas historias. Esto fomenta conexiones más auténticas y cercanas.
 
