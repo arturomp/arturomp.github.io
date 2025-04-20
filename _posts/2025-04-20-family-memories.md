@@ -17,7 +17,7 @@ So I built a system to help me: it makes those interviews searchable and easier 
 
 I implemented this in a [Kaggle notebook](https://www.kaggle.com/code/arturomp/family-memories). In this post I focus on some implementation bits that are particularly interesting. 
 
-However, I do try to make the whole notebook as easy-to-follow as possible, so check the whole thing out [in Kaggle](https://www.kaggle.com/code/arturomp/family-memories)!
+However, I do try to make the whole notebook as easy-to-follow as possible, so check the whole thing out [on Kaggle](https://www.kaggle.com/code/arturomp/family-memories)!
 
 ⸺
 
