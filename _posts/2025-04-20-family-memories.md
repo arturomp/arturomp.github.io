@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Family Memories: Searchable Interviews with GenAI"
 subtitle: "A bilingual pipeline for recalling stories, building questions, and exploring shared history"
 categories: nlp llm
