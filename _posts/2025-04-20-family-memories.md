@@ -267,11 +267,11 @@ A kaggle notebook is a starting point, so limitations are plenty. However, here 
 
 The system can be expanded with new functions and adaptations. Some current ideas are:
 
-- 🎙️ **Interview assistant:** suggest context-aware follow-up questions during live interviews.  
-- 🔁 **Reusable flow:** adapt the pipeline to other interview corpora, such as [NPR Dialog Transcripts on Kaggle](https://www.kaggle.com/datasets/shuyangli94/interview-npr-media-dialog-transcripts/data).  
-- 🎙️ **Personal Oral History Summarizer:** segment interviews into chapters like *Childhood*, *Migration*, *Raising a Family*.  
-- 🧬 **Thematic Indexer:** use embeddings or agents to tag recurring themes (e.g., *resilience*, *food*, *gender roles*) across interviews.  
-- 🖼️ **Quote Collage Generator:** surface moving, funny, or surprising quotes and format them for a family memory book.
+- **Interview assistant:** suggest context-aware follow-up questions during live interviews.  
+- **Reusable flow:** adapt the pipeline to other interview corpora, such as [NPR Dialog Transcripts on Kaggle](https://www.kaggle.com/datasets/shuyangli94/interview-npr-media-dialog-transcripts/data).  
+- **Personal Oral History Summarizer:** segment interviews into chapters like *Childhood*, *Migration*, *Raising a Family*.  
+- **Thematic Indexer:** use embeddings or agents to tag recurring themes (e.g., *resilience*, *food*, *gender roles*) across interviews.  
+- **Quote Collage Generator:** surface moving, funny, or surprising quotes and format them for a family memory book.
 
 
 ⸺
