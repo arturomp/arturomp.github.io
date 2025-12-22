@@ -1,7 +1,7 @@
-<div class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default" role="navigation" aria-label="Main navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -15,32 +15,30 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-      <!-- <li><a href="{{ site.baseurl }}/links.html">Links</a></li> -->
       <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
       <li><a href="{{ site.baseurl }}/about.html">About</a></li>
       </ul>
-    </div><!--/.nav-collapse -->
+    </div>
   </div>
-</div>
+</nav>
 
 <!-- Sidebar -->
-<div id="sidebar-wrapper">
-  <ul class="sidebar-nav">
-    <li class="sidebar-brand">
-      <a href="{{ site.baseurl }}/">
-        <h1 class="brand">{{ site.name }}</h1>
-      </a>
-      <h3>{{ site.description }}</h3>
-    </li>
-    <hr />
-    <!-- <li><a href="{{ site.baseurl }}/links.html">Links</a></li> -->
-    <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
-    <li><a href="{{ site.baseurl }}/about.html">About</a></li>
-    <hr />
-    <div id="social-wrapper">
-      <li> <a href="{{ site.github }}" target="_blank"><i class="fa fa-github-square"></i> GitHub</a> </li>
-      <li> <a href="{{ site.stackoverflow }}" target="_blank"><i class="fa fa-stack-overflow"></i> StackOverflow</a></li>
-      <li> <a href="{{ site.linkedin }}" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a> </li>
-    </div>
-  </ul>
-</div>
+<aside id="sidebar-wrapper" aria-label="Sidebar navigation">
+  <nav>
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a href="{{ site.baseurl }}/">
+          <h1 class="brand">{{ site.name }}</h1>
+        </a>
+        <h3>{{ site.description }}</h3>
+      </li>
+      <hr />
+      <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
+      <li><a href="{{ site.baseurl }}/about.html">About</a></li>
+      <hr />
+      <li> <a href="{{ site.github }}" target="_blank" rel="noopener"><i class="fa fa-github-square"></i> GitHub</a> </li>
+      <li> <a href="{{ site.stackoverflow }}" target="_blank" rel="noopener"><i class="fa fa-stack-overflow"></i> StackOverflow</a></li>
+      <li> <a href="{{ site.linkedin }}" target="_blank" rel="noopener"><i class="fa fa-linkedin-square"></i> LinkedIn</a> </li>
+    </ul>
+  </nav>
+</aside>

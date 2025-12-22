@@ -1,27 +1,21 @@
 name: Arturo MP
 author: Arturo MP
+url: "https://arturomp.github.io"
 baseurl: ""
 description: NLP, LLM, ML
-github: http://www.github.com/arturomp
-linkedin: http://www.linkedin.com/in/arturomp
+github: https://www.github.com/arturomp
+linkedin: https://www.linkedin.com/in/arturomp
 stackoverflow: https://stackoverflow.com/users/583834/arturomp?tab=profile
 email: contact.arturo[at]gmail.com
 
 collections:
-- projects
-- photoprojects
-
-collections:
   projects:
-    output: True
+    output: true
   photoprojects:
-    output: True
+    output: true
 
 highlighter: rouge
-# markdown: redcarpet
 markdown: kramdown
-redcarpet:
-  extensions: ["tables"]
 
 defaults:
   - scope:

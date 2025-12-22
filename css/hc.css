@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 
 body
@@ -160,6 +160,9 @@ p
     color: #000382;
     padding-left: 10px;
     padding-top: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
   }
 
 .brand
@@ -692,7 +695,7 @@ time
     left: 0px;
 }
  .nav-toggle {
-    display: ;
+    display: block;
   }
 #wrapper.active {
   position: relative;

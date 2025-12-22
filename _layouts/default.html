@@ -6,12 +6,12 @@
     {% include header.html %}
   </head>
   <body>
-    <div class="nav-toggle"><i class="fa fa-bars fa-2x"></i> </div>
+    <button class="nav-toggle" aria-label="Toggle navigation"><i class="fa fa-bars fa-2x"></i></button>
     <div id = "wrapper">
       {%include navigation.html %}
-      <div class="container">
+      <main class="container">
         {{ content }}
-      </div>
+      </main>
       {% include footer.html %}
     </div>
     {% include scripts.html %}

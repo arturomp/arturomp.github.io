@@ -25,6 +25,6 @@ order: 2
 
 ![Peach and prosciutto flatbread]({{ site.baseurl }}/images/food/flatbread.jpg)
 
-### [Chocolate cookies](http://blogs.kcrw.com/goodfood/2014/11/recipe-dominique-ansels-flourless-chocolate-pecan-cookies/)
+### [Chocolate cookies](https://blogs.kcrw.com/goodfood/2014/11/recipe-dominique-ansels-flourless-chocolate-pecan-cookies/)
 
 ![Chocolate cookies]({{ site.baseurl }}/images/food/chocolate_cookies.jpg)
